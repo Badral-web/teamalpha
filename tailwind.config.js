@@ -13,6 +13,7 @@ export default {
             testForAdjustment: 'red',
             socialproofsectiontheme:
                 'linear-gradient(0deg, #282828 0%, #282828 100%), #1E1E1E;',
+            footerGray: '#282828;',
         },
         height: {
             CustomerServiceDivHeight: '100%',
