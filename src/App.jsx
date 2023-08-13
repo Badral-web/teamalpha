@@ -1,19 +1,20 @@
+import * as React from 'react'
+import * as ReactDOM from 'react-dom/client'
+import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import './App.css'
-import CustomerService from './components/CustomerService'
-import Footer from './components/Footer'
-import Navbar from './components/Navbar'
-import SocialProof from './components/SocialProof'
-import Testimonial from './components/Testimonial'
+import Home from './pages/Home'
+const router = createBrowserRouter([
+    {
+        path: '/',
+        element: <Home></Home>,
+    },
+])
 
-function App() {
-    return (
-        <>
-            <Navbar />
-            <CustomerService />
-            <SocialProof />
-            <Testimonial />
-            <Footer />
-        </>
+const App = () => {
+    return ReactDOM.createRoot(document.getElementById('root')).render(
+        <React.StrictMode>
+            <RouterProvider router={router} />
+        </React.StrictMode>
     )
 }
 

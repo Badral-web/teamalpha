@@ -1,7 +1,7 @@
 const Navbar = () => {
     return (
-        <nav className="bg-teamalphanavbar border-b border-1 border-white">
-            <div className="max-w-screen-xl flex flex-wrap justify-between mx-auto p-4">
+        <nav className="">
+            <div className="max-w-screen-xl flex flex-wrap justify-between mx-auto p-4 max-h-[100%]">
                 <a href="#" className="flex items-center left-1">
                     <img
                         src="../../public/logo.svg"
@@ -54,25 +54,31 @@ const Navbar = () => {
                         <li className="flex items-center">
                             <a
                                 href="#"
-                                className="block py-2 pl-3 pr-4 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                                className="group text-white transition-all duration-300 ease-in-out"
                             >
-                                Үнэ
+                                <span className=" bottom-0 origin-center pl-1 pr-1 bg-bottom bg-gradient-to-r from-red-500 to-red-500 bg-[length:0%_3px] bg-no-repeat  group-hover:bg-[length:100%_3px] transition-all duration-500 ease-out">
+                                    Үнэ
+                                </span>
                             </a>
                         </li>
                         <li className="flex items-center">
                             <a
                                 href="#"
-                                className="block py-2 pl-3 pr-4 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                                className="group text-white transition-all duration-300 ease-in-out"
                             >
-                                Товхимол
+                                <span className="origin-center pl-1 pr-1 bg-bottom bg-gradient-to-r from-red-500 to-red-500 bg-[length:0%_3px] bg-no-repeat  group-hover:bg-[length:100%_3px] transition-all duration-500 ease-out">
+                                    Мэдээ
+                                </span>
                             </a>
                         </li>
                         <li className="flex items-center">
                             <a
                                 href="#"
-                                className="block py-2 pl-3 pr-4 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                                className="group text-white transition-all duration-300 ease-in-out"
                             >
-                                Тусламж
+                                <span className="origin-center pl-1 pr-1 bg-bottom bg-gradient-to-r from-red-500 to-red-500 bg-[length:0%_3px] bg-no-repeat  group-hover:bg-[length:100%_3px] transition-all duration-500 ease-out">
+                                    Бидний тухай
+                                </span>
                             </a>
                         </li>
                         <li>
