@@ -18,7 +18,11 @@ export default {
         height: {
             CustomerServiceDivHeight: '100%',
         },
-        extend: {},
+        extend: {
+            screens: {
+                small: '',
+            },
+        },
     },
     plugins: [],
 }
