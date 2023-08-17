@@ -1,3 +1,4 @@
+import Dropdown from './Dropdown'
 const Navbar = () => {
     return (
         <nav className="">
@@ -43,6 +44,7 @@ const Navbar = () => {
                         />
                     </svg>
                 </button>
+                <Dropdown />
                 <div
                     className="hidden w-full md:block md:w-auto"
                     id="navbar-default"

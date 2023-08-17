@@ -15,12 +15,21 @@ export default {
                 'linear-gradient(0deg, #282828 0%, #282828 100%), #1E1E1E;',
             footerGray: '#282828;',
         },
+
+        fontSize: {
+            CustomeSize: ['32px', '44px'],
+            Services: ['40px', '54px'],
+        },
+
         height: {
             CustomerServiceDivHeight: '100%',
         },
         extend: {
-            screens: {
-                small: '',
+            fontFamily: {
+                poppins: ['Poppins', 'sans-serif'],
+            },
+            fontWeight: {
+                RegisterSectionFontWeight: 700, // Example custom font weight
             },
         },
     },

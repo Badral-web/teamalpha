@@ -1,8 +1,10 @@
+import Dropdown from './Dropdown'
+
 const Navbar = () => {
     return (
         <nav className="">
-            <div className="max-w-screen-xl flex flex-wrap justify-between mx-auto p-4 max-h-[100%]">
-                <a href="#" className="flex items-center left-1">
+            <div className=" w-[90vw] max-w-screen-xl flex flex-wrap justify-between mx-auto py-4 max-h-[100%]">
+                <a href="/" className="flex items-center left-1">
                     <img
                         src="../../public/logo.svg"
                         className="h-5 mr-1"
@@ -19,7 +21,8 @@ const Navbar = () => {
                         alt="Alpha"
                     />
                 </a>
-                <button
+                <Dropdown />
+                {/* <button
                     data-collapse-toggle="navbar-default"
                     type="button"
                     className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
@@ -42,7 +45,7 @@ const Navbar = () => {
                             d="M1 1h15M1 7h15M1 13h15"
                         />
                     </svg>
-                </button>
+                </button> */}
                 <div
                     className="hidden w-full md:block md:w-auto"
                     id="navbar-default"
@@ -53,7 +56,7 @@ const Navbar = () => {
                     >
                         <li className="flex items-center">
                             <a
-                                href="#"
+                                href="Pricing"
                                 className="group text-white transition-all duration-300 ease-in-out"
                             >
                                 <span className=" bottom-0 origin-center pl-1 pr-1 bg-bottom bg-gradient-to-r from-red-500 to-red-500 bg-[length:0%_3px] bg-no-repeat  group-hover:bg-[length:100%_3px] transition-all duration-500 ease-out">

@@ -46,9 +46,9 @@
 
 const Footer = () => {
     return (
-        <div className="max-w-screen-xl mx-auto flex flex-col">
+        <div className="max-w-screen-xl mx-auto flex flex-col mt-10">
             <div className=" flex flex-row bg-footerGray h-[158px]">
-                <div className="flex-col p-10">
+                <div className="flex-col py-10">
                     <h1 className=" text-white text-2xl">
                         Манай товхимолд бүртгүүлээрэй
                     </h1>
@@ -57,7 +57,7 @@ const Footer = () => {
                         илгээнэ
                     </p>
                 </div>
-                <div className="flex flex-col items-center justify-center h-full">
+                <div className="flex flex-col items-center justify-center h-full ml-auto mr-0">
                     <form className="flex flex-col md:flex-row">
                         <input
                             type="email"
@@ -95,11 +95,12 @@ const Footer = () => {
                 </div>
                 <div className="flex-grow flex justify-center">
                     <ul className="flex">
-                        <li className="px-4 text-white font-base">Overview</li>
-                        <li className="px-4 text-white font-base">Overview</li>
-                        <li className="px-4 text-white font-base">Overview</li>
-                        <li className="px-4 text-white font-base">Overview</li>
-                        <li className="px-4 text-white font-base">Overview</li>
+                        <li className="px-4 text-white font-base">
+                            Үйлчилгээний нөхцөл
+                        </li>
+                        <li className="px-4 text-white font-base">
+                            Түгээмэл асуулт хариулт
+                        </li>
                     </ul>
                 </div>
                 <div className="flex-shrink-0">
