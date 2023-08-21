@@ -1,7 +1,7 @@
 const Services = () => {
     return (
-        <div className="max-w-screen-xl flex flex-col mx-auto items-center gap-[104px]">
-            <h1 className=" font-poppins text-xl text-Services text-white">
+        <div className="flex flex-col items-center gap-[104px]">
+            <h1 className="poppins text-xl text-Services text-white">
                 Авах боломжит мэдээллүүд
             </h1>
             <div className="w-full flex flex-row">

@@ -14,7 +14,7 @@ const Dropdown = () => {
         <div className="relative inline-block text-left">
             <Listbox value={selectedOption} onChange={setSelectedOption}>
                 <div className="relative">
-                    <button className="block cursor-pointer">
+                    <button className=" cursor-pointer block md:hidden">
                         Open Dropdown
                     </button>
                     <Listbox.Options className="absolute z-10 mt-2 w-48 py-2 bg-white border border-gray-300 rounded shadow-lg">

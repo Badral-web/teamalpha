@@ -1,53 +1,7 @@
-// const Footer = () => {
-//     return (
-//         <div className="max-w-screen-xl mx-auto flex flex-col">
-//             <div className="flex flex-row">
-//                 <div className=" flex-1">Baruun</div>
-//                 <div className=" flex-1">Zuun</div>
-//             </div>
-//             <div className="flex flex-row">
-//                 <div className="">
-//                     <a href="#" className="flex items-center left-1">
-//                         <img
-//                             src="../../public/logo.svg"
-//                             className="h-5 mr-1"
-//                             alt="Team Alpha logo"
-//                         />
-//                         <img
-//                             src="../../public/team.svg"
-//                             className="h-5 mr-0"
-//                             alt="Team"
-//                         />
-//                         <img
-//                             src="../../public/alpha.svg"
-//                             className="h-5 mr-0"
-//                             alt="Alpha"
-//                         />
-//                     </a>
-//                 </div>
-//                 <div className=" bg-testForAdjustment">
-//                     <ul className="flex horizontal-list">
-//                         <li>Overview</li>
-//                         <li>Overview</li>
-//                         <li>Overview</li>
-//                         <li>Overview</li>
-//                         <li>Overview</li>
-//                     </ul>
-//                 </div>
-//                 <div className="ml-10 bg-discordButton w-[160px]">
-//                     <h3 className="">@2023 Team Alpha</h3>
-//                 </div>
-//             </div>
-//         </div>
-//     )
-// }
-
-// export default Footer
-
 const Footer = () => {
     return (
-        <div className="max-w-screen-xl mx-auto flex flex-col mt-10">
-            <div className=" flex flex-row bg-footerGray h-[158px]">
+        <div className="flex flex-col mt-10">
+            <div className=" flex flex-row h-[158px]">
                 <div className="flex-col py-10">
                     <h1 className=" text-white text-2xl">
                         Манай товхимолд бүртгүүлээрэй
@@ -99,7 +53,7 @@ const Footer = () => {
                             Үйлчилгээний нөхцөл
                         </li>
                         <li className="px-4 text-white font-base">
-                            Түгээмэл асуулт хариулт
+                            <a href="/FAQ">Түгээмэл асуулт хариулт</a>
                         </li>
                     </ul>
                 </div>

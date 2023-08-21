@@ -1,6 +1,6 @@
 const MailRegistration = () => {
     return (
-        <div className="max-w-screen-xl mx-auto flex flex-col md:flex-row h-[90vh]">
+        <div className="flex flex-col md:flex-row h-[90vh]">
             <div className="md:flex-1 md:items-center md:-z-1 order-1 md:order-2 bg-white flex justify-center items-center">
                 <div className="ml-auto">
                     <img

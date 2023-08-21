@@ -3,7 +3,7 @@ import Dropdown from './Dropdown'
 const Navbar = () => {
     return (
         <nav className="">
-            <div className=" w-[90vw] max-w-screen-xl flex flex-wrap justify-between mx-auto py-4 max-h-[100%]">
+            <div className="  flex flex-wrap justify-between  py-4 max-h-full">
                 <a href="/" className="flex items-center left-1">
                     <img
                         src="../../public/logo.svg"
